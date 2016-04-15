@@ -54,7 +54,11 @@ moduleName "hello-jni"
 =======需要在defaultConfig中添加=========
 </pre>
 9.此时Run app还是提示错误，提示要在gradle.properties文件中添加</br>
-android.useDeprecatedNdk=true  </br>
+<pre>
+===================================
+android.useDeprecatedNdk=true  
+===================================
+</pre>
 10.最后要在MainActivity中添加静态方法
 <pre>
 ===================================================
